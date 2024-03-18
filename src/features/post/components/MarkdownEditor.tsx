@@ -22,7 +22,6 @@ interface MarkdownEditorProps {
 const MarkdownEditor: React.FC<MarkdownEditorProps> = ({
   MDEValue,
   setMDEValue,
-  isSubmitting,
   setUploadingImg,
   h,
   showHtml,
@@ -62,7 +61,6 @@ const MarkdownEditor: React.FC<MarkdownEditorProps> = ({
   });
 
   const handleEditorChange = ({
-    html,
     text,
   }: {
     html: string;

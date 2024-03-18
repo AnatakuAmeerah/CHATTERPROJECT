@@ -13,7 +13,7 @@ import { BsGithub, BsTwitter } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import { LightBtn, PrimaryBtn } from '../../../shared/utils/Buttons';
 import { useAuth } from '../../../context/auth';
-import defaultProfile from '../../../assets/images/default_profile.webp';
+import defaultProfile from '../../../assets/default_profile.webp';
 import { joinOnDate } from '../../../helper/calcTimestamp';
 import useFollowUser from '../hooks/useFollowUser';
 

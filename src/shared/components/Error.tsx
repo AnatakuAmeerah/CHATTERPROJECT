@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Heading, Text, VStack } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
 

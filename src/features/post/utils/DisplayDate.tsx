@@ -2,7 +2,6 @@ import { Text } from '@chakra-ui/react';
 import React from 'react';
 // import Moment from 'react-moment';
 import {
-  calTimeStamp,
   dateFormat,
   isLimitedDate,
 } from '../../../helper/calcTimestamp';

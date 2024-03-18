@@ -6,7 +6,7 @@ import {
     useColorModeValue,
     VStack,
   } from '@chakra-ui/react';
-  import React, { FC } from 'react';
+  import  { FC } from 'react';
   import { BtnDefault, BtnRed } from '../../../shared/utils/Buttons';
   
   interface DeleteConfirmProps {
