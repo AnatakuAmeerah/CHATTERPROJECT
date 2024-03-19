@@ -31,7 +31,7 @@ const Landing = () => {
 
             <section className='section-four'>
                 <h3>Why you should join chatter</h3>
-                <p>Our goal is to make writers and readers see our platform as their next heaven for blogging, ensuring ease in interactions, connecting with like-minded peers, have access to favorite content based on interests and able to communicate your great ideas with people</p>
+                <p className="p-text">Our goal is to make writers and readers see our platform as their next heaven for blogging, ensuring ease in interactions, connecting with like-minded peers, have access to favorite content based on interests and able to communicate your great ideas with people</p>
                 <div className='why'>
                     <div className='one'>
                         <img className='logo' src="./analytics-graph-bar.svg" alt="img" />
@@ -41,12 +41,12 @@ const Landing = () => {
                     <div className='two'>
                         <img className='logo' src="./social-relations.svg" alt="img" />
                         <p className='sub'>Social Interactions</p>
-                        <p>Users on the platform can interact with posts they like, comment and engage in discussions</p>
+                        <p className="p-text">Users on the platform can interact with posts they like, comment and engage in discussions</p>
                     </div>
                     <div>
                         <img className='logo' src="./service-content-1.svg" alt="" />
                         <p className='sub'>Content Creation</p>
-                        <p>Write nice and appealing with our in-built markdown, a rich text editor</p>
+                        <p className="p-text">Write nice and appealing with our in-built markdown, a rich text editor</p>
                     </div>
                 </div>
             </section>
