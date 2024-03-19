@@ -307,6 +307,7 @@
       width: 100%;
       margin-bottom: 0.2rem;
       margin-right: 20px;
+      cursor: pointer;
 
     }
     #li{
@@ -360,7 +361,7 @@
       text-align: center;
       margin-left: 60px;
       margin-right: 60px;
-    font-size: 17px;
+    font-size: 24px;
     font-weight: 100;
     line-height: 20px; /* 155.556% */
     }
