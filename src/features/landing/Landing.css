@@ -296,6 +296,13 @@
     src: url(./Gilroy-SemiBold.ttf);
   }
   @media (max-width: 480px){
+    body{
+      &::before{
+       left: 10%;
+       top: 4%;
+      
+       }
+      }
     header{
       width: 100%;
     }
@@ -361,8 +368,8 @@
       text-align: center;
       margin-left: 60px;
       margin-right: 60px;
-    font-size: 24px;
-    font-weight: 100;
+    font-size: 15px;
+    font-weight: 300;
     line-height: 20px; /* 155.556% */
     }
     .section-three{
