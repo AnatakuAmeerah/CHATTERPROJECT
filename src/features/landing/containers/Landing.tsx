@@ -12,7 +12,7 @@ const Landing = () => {
                 <p className="optimize">A Traditional <span>Bookworm's</span><br /> Heaven</p>
                 <p className="personalize">Unleash the Power of Words, connect with Like-minded <br />Readers and Writers </p>
                 <div className='get-started'>
-                    <Button><Link to="/create-account" className="linklogin">
+                    <Button ><Link to="/create-account" className="linklogin">
                         Get started
                     </Link></Button>
                 </div>
@@ -55,8 +55,9 @@ const Landing = () => {
                 <img className='profile-img' src="./christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="" />
                 <div className='review-text'>
                     <p className='review-text-one'>"Chatter has become an integral part of my online experience. As a user of this incredible blogging platform, I have discovered a vibrant community of individuals who are passionate about sharing their ideas and engaging in thoughtful discussions.”</p>
-                    <p className='review-text-two'>Adebobola Muhydeen, Software developer at Apple</p>
-                    <Button><Link to="/create-account" className="linklogin">
+                    <p className='review-text-two'>Adebobola Muhydeen, Software developer at Apple
+                    </p>
+                    <Button ><Link to="/create-account" >
                         Join Chatter
                     </Link></Button>
                 </div>

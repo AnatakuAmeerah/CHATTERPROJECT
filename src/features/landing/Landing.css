@@ -297,6 +297,7 @@
   }
   @media (max-width: 480px){
     body{
+      width: 100%;
       &::before{
        left: 10%;
        top: 4%;
@@ -304,6 +305,8 @@
        }
       }
     header{
+      flex-direction: column;
+      align-items: start;
       width: 100%;
     }
     header .menu{
@@ -311,9 +314,8 @@
     }
     .menu{
       flex-direction: column;
-      width: 100%;
       margin-bottom: 0.2rem;
-      margin-right: 20px;
+      margin-right: 25px;
       cursor: pointer;
 
     }
@@ -322,6 +324,10 @@
       gap: 10px;
       flex-direction: column;
       color:white;
+    
+    }
+    #li:active{
+      color: #4bbbf3;
     }
     .loginandbtn{
       display: flex;
@@ -332,15 +338,16 @@
       display: none;
       gap: 10px;
       flex-direction: column;
-      width: 50%;
+      width: 105%;
+      padding-top: 4rem;
       align-items: center;
       margin-bottom: 0.2rem;
-      margin-top: 0.2rem;
-      height: 300px;
+      margin-top: -4rem;
+      margin-right: -1rem;
+      height: 100%;
     }
     header #menu-items.open {
       display: flex;
-      flex-direction: column;
     }
    
     .get-started{
@@ -373,34 +380,43 @@
     line-height: 20px; /* 155.556% */
     }
     .section-three{
-      width: 100%;
+      width: 300px;
       display: block;
+      text-align: center;
       margin-left: 50px;
     }
     .about{
       font-size: 15px;
-      width: 300px;
+      width: 100%;
       margin-bottom: 25px;
+      margin-right: 60px;
     }
     .img-one{
       max-width: 70%;
-      margin-left: 10px;
+      margin-left: 40px;
       border-radius: 10px;
       border: 3px solid rgb(199, 141, 189);
      } 
      .profile-img{
-      max-width: 80%;
+      max-width: 100%;
       border-radius: 10px;
       border: 2px solid #4bbbf3;
      }
      .section-six{
       display: flex;
-      gap: 20px;
+      gap: 10px;
+      padding-left: 30px;
+      padding-right: 10px;
+      padding-top: -20px;
      }
      .footer{
-      margin-left: 10px;
+      display: none;
      }
      .section-five{
+      justify-content: center;
+      text-align: center;
+      /* margin-left: 10px; */
+      margin-right: 25px;
     
       display: block;
      }
@@ -468,9 +484,16 @@
        }
        .review-text-one{
         font-size: 15px;
-        width: 100%;
+        width: 200px;
        }
        .review-text-two{
         font-size: 15px;
+        width: 200px;
+        font-weight: 800;
+       }
+       .review-text{
+        display: inline-block;
+        width: 200px;
+       /* margin-left: 12px; */
        }
   }
