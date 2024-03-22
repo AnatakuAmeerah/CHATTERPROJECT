@@ -383,7 +383,7 @@
       width: 300px;
       display: block;
       text-align: center;
-      margin-left: 50px;
+      margin-left: 40px;
     }
     .about{
       font-size: 15px;
@@ -415,6 +415,7 @@
      .section-five{
       justify-content: center;
       text-align: center;
+      align-items: center;
       /* margin-left: 10px; */
       margin-right: 25px;
     
@@ -496,4 +497,9 @@
         width: 200px;
        /* margin-left: 12px; */
        }
+       .join-chatter{
+        margin-left: 25px;
+       }
+       
+       
   }

@@ -57,9 +57,12 @@ const Landing = () => {
                     <p className='review-text-one'>"Chatter has become an integral part of my online experience. As a user of this incredible blogging platform, I have discovered a vibrant community of individuals who are passionate about sharing their ideas and engaging in thoughtful discussions.”</p>
                     <p className='review-text-two'>Adebobola Muhydeen, Software developer at Apple
                     </p>
+                    <div className="join-chatter">
                     <Button ><Link to="/create-account" >
                         Join Chatter
                     </Link></Button>
+                    </div>
+                    
                 </div>
 
             </section>
