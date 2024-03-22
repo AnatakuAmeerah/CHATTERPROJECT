@@ -34,12 +34,12 @@ const Landing = () => {
                 <p className="p-text">Our goal is to make writers and readers see our platform as their next heaven for blogging, ensuring ease in interactions, connecting with like-minded peers, have access to favorite content based on interests and able to communicate your great ideas with people</p>
                 <div className='why'>
                     <div className='one'>
-                        <img className='logo' src="./analytics-graph-bar.svg" alt="img" />
+                        <img className='logo-1' src="./analytics-graph-bar.svg" alt="img" />
                         <p className='sub'>Analytics</p>
-                        <p>Analytics to track the number of views, likes and comment and also analyze the performance of your articles over a period of time</p>
+                        <p className="p-text">Analytics to track the number of views, likes and comment and also analyze the performance of your articles over a period of time</p>
                     </div>
                     <div className='two'>
-                        <img className='logo' src="./social-relations.svg" alt="img" />
+                        <img className='logo-2' src="./social-relations.svg" alt="img" />
                         <p className='sub'>Social Interactions</p>
                         <p className="p-text">Users on the platform can interact with posts they like, comment and engage in discussions</p>
                     </div>
