@@ -383,7 +383,7 @@
       width: 300px;
       display: block;
       text-align: center;
-      margin-left: 60px;
+      margin-left: 35px;
       margin-right: 40px;
     }
     .about{
@@ -394,7 +394,7 @@
     }
     .img-one{
       max-width: 70%;
-      margin-left: 40px;
+      margin-left: 48px;
       border-radius: 10px;
       border: 3px solid rgb(199, 141, 189);
      } 
