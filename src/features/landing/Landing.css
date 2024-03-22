@@ -383,7 +383,8 @@
       width: 300px;
       display: block;
       text-align: center;
-      margin-left: 40px;
+      margin-left: 60px;
+      margin-right: 40px;
     }
     .about{
       font-size: 15px;
@@ -498,7 +499,7 @@
        /* margin-left: 12px; */
        }
        .join-chatter{
-        margin-left: 25px;
+        margin-left: 28px;
        }
        
        
